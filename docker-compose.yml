@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  identity-mock:
+    build: .
+    ports:
+      - '9001:9001'

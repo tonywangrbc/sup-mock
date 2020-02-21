@@ -1,0 +1,14 @@
+{
+  "name": "sup-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tonywangrbc/sup-mock.git",
+  "license": "MIT",
+  "scripts": {
+    "start:mock:identity": "mockserver -p 9001 -m 'mocks/identity'"
+  },
+  "dependencies": {
+    "mockserver": "^3.1.1",
+    "uuidv4": "^6.0.2"
+  }
+}
